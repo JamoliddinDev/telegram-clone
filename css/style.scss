@@ -1,0 +1,39 @@
+@import '_top';
+@import '_menu';
+@import '_users';
+@import '_chat-main';
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #0E1621;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.main-section {
+    display: flex;
+}
+
+
